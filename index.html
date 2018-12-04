@@ -8,19 +8,21 @@
 <body>
 	<header>
 		<div class="main-logo inline">
-			<h1 class="minimo">MINIMO</h1>
+			<a href="#home">
+				<h1 class="minimo">MINIMO</h1>
+			</a>
 		</div>
 		<div class="navigation-list inline">
 			<ul>
-				<li class="nav-li inline">lifestyle</li>
-				<li class="nav-li inline">photodiary</li>
-				<li class="nav-li inline">music</li>
-				<li class="nav-li inline">travel</li>
+				<li class="nav-li inline"><a href="#lifestyle">lifestyle</a></li>
+				<li class="nav-li inline"><a href="#photodiary">photodiary</a></li>
+				<li class="nav-li inline"><a href="#music">music</a></li>
+				<li class="nav-li inline"><a href="#travel">travel</a></li>
 			</ul>
 		</div>
 	</header>
 	<section>
-		<div class="homepage-photo">
+		<div id="home" class="homepage-photo">
 			<img src="img/homepage.jpg" alt="homepage-photo">
 		</div>
 		<div class="main-info">
@@ -33,7 +35,7 @@
 	<section>
 		<div class="container-news-box">
 			<div class="news-box inline">
-				<img class="news-photo" src="img/news1.jpg" alt="news1">
+				<img  id="lifestyle" class="news-photo" src="img/news1.jpg" alt="news1">
 				<h5>lifestyle</h5>
 				<h2>More than just a music festival</h2>
 				<p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -51,7 +53,7 @@
 		</div>
 		<div class="container-news-box">
 			<div class="news-box inline">
-				<img class="news-photo" src="img/news3.jpg" alt="news3">
+				<img id="photodiary" class="news-photo" src="img/news3.jpg" alt="news3">
 				<h5>photodiary</h5>
 				<h2>American dream</h2>
 				<p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -77,7 +79,7 @@
 	</section>
 	<section>
 		<div class="container-news-box">
-			<div class="news-box">
+			<div id="music" class="news-box">
 				<img class="news-photo" src="img/2news1.jpg" alt="photo">
 				<h5>lifestyle</h5>
 				<h2>more than just a music festival</h2>
@@ -94,7 +96,7 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
 			</div>
 		</div>
-		<div class="load-more">
+		<div id="travel" class="load-more">
 				<a href="#">Load more</a>
 		</div>
 	</section>

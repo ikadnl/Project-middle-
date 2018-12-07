@@ -1,3 +1,12 @@
+.Inconsolata {
+	font-family: 'Inconsolata';
+}
+.PlayfairDisplay {
+	font-family: 'Playfair Display';
+}
+.Ubuntu {
+	font-family: 'Ubuntu';
+}
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +24,7 @@ header {
 }
 .minimo {
 	font-size: 30px;
+	text-transform: uppercase;
 }
 .main-logo{
 	margin: 50px 60px;
@@ -79,6 +89,7 @@ header {
 	width: 520px;
 	margin-top: 35px;
 	font-size: 15px;
+	line-height: 20px;
 }
 .sign-up{
 	height: 350px;
